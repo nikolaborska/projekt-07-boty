@@ -1,4 +1,5 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html {
     box-sizing: border-box;
 }
@@ -139,6 +140,15 @@ hr {
 
 ul {
     list-style-type: none;
+}
+
+.vybrana {
+    border: #f15f42;
+    border-radius: 50%;
+    border-style: solid;
+    color: #f15f42;
+    padding: 3px;
+    margin-top: -5px;
 }
 
 .akce {
